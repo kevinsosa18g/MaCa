@@ -1,0 +1,28 @@
+ .contenedor img{
+    height: 200px;
+    max-width: 300px;
+    cursor: pointer;
+}
+
+.contenedor{
+    padding-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(auto,1fr);
+    gap: 20px;
+
+}
+
+
+#Imagen-grande img{
+    width: 70%;
+    position: fixed;
+}
+
+.active{
+
+    position: absolute;
+    left: 10%;
+    
+}
